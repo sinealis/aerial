@@ -623,6 +623,7 @@ footer .copyright {
 		border: 3px solid #fff;
 	}
 	.slider-due:hover article {
+		-webkit-animation-play-state: paused;
 		animation-play-state: paused;
 	}
 	article {
@@ -641,34 +642,51 @@ footer .copyright {
 		color: #111;
 	}
 	article:nth-of-type(1) {
+		-webkit-animation: slideIn 50s linear 0s infinite;
 		animation: slideIn 50s linear 0s infinite;
 	}
 	article:nth-of-type(2) {
+		-webkit-animation: slideIn 50s linear 5s infinite;
 		animation: slideIn 50s linear 5s infinite;
 	}
 	article:nth-of-type(3) {
+		-webkit-animation: slideIn 50s linear 10s infinite;
 		animation: slideIn 50s linear 10s infinite;
 	}
 	article:nth-of-type(4) {
+		-webkit-animation: slideIn 50s linear 15s infinite;
 		animation: slideIn 50s linear 15s infinite;
 	}
 	article:nth-of-type(5) {
+		-webkit-animation: slideIn 50s linear 20s infinite;
 		animation: slideIn 50s linear 20s infinite;
 	}
 	article:nth-of-type(6) {
+		-webkit-animation: slideIn 50s linear 25s infinite;
 		animation: slideIn 50s linear 25s infinite;
 	}
 	article:nth-of-type(7) {
+		-webkit-animation: slideIn 50s linear 30s infinite;
 		animation: slideIn 50s linear 30s infinite;
 	}
 	article:nth-of-type(8) {
+		-webkit-animation: slideIn 50s linear 35s infinite;
 		animation: slideIn 50s linear 35s infinite;
 	}
 	article:nth-of-type(9) {
+		-webkit-animation: slideIn 50s linear 40s infinite;
 		animation: slideIn 50s linear 40s infinite;
 	}
 	article:nth-of-type(10) {
+		-webkit-animation: slideIn 50s linear 45s infinite;
 		animation: slideIn 50s linear 45s infinite;
+	}
+	@-webkit-keyframes slideIn {
+		0% {left: 400px;}
+		1% {left: 0;}
+		10% {left: 0;}
+		11% {left: -400px;}
+		100%{left: -400px;}
 	}
 	@keyframes slideIn {
 		0% {left: 400px;}
