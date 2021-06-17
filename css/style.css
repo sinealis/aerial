@@ -99,6 +99,7 @@ header {
 	background-size: cover;
 	padding: 4em 0;
 	text-align: center;
+	transition: opacity 2s ease-in;
 }
 .container {
 	max-width: 73.125em; /* 1170/16 */
